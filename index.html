@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Web Profesional</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="imagen/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        @font-face {
+            font-family: Poppins;
+            src: url(Poppins/Poppins-Light.ttf) format('trutype');
+            src: url(Poppins/Poppins-Regular.ttf) format('trutype');
+            src: url(Poppins/Poppins-Bold.ttf) format('trutype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="social_icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+        </div>
+        <div class="cabecera_2">
+            <div class="logo">
+                <h1>AROMA CAFÉ</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Tiendas</a></li>
+                    <li><a href="#">Carta</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li><a href="#" class="button">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="intro_texto">
+                <h2>Empieza tu día con nuestros sabores de cappuchino</h2>
+                <p>Disfruta desde casa el sabor de los nuevos <br> cappuchino matcha y algarrobina.</p>
+                <button>Pídelos aquí</button>
+            </div>
+            <div class="intro_imagen">
+                <img src="imagenes/imagen_1.jpeg" alt="imagen café">
+            </div>
+        </section>
+
+
+        <section class="tables">
+            <h2>PROMOCIONES DE LA SEMANA</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Días</th>
+                        <th>Bebidas</th>
+                        <th>Descuentos/Promociones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>Café americano</td>
+                        <td>50% en el segundo</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>Latte Tradicional</td>
+                        <td>2 x 1</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>Cappuccino de matcha o algarrobina</td>
+                        <td>20% en tu compra</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>Mocachino</td>
+                        <td>3 x 2</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>Cualquier bebida de temporada</td>
+                        <td>+ s/2 Agrandas tu bebida</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="grid-imagenes">
+            <h2>CATEGORÍAS</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="imagenes/imagen_2.jpg" alt="Café">
+                    <div class="title-overlay">Café</div>
+                </div>
+                <div class="grid-item">
+                    <img src="imagenes/imagen_3.jpg" alt="postres">
+                    <div class="title-overlay">Postres</div>
+                </div>
+                <div class="grid-item">
+                    <img src="imagenes/imagen_4.jpg" alt="bebidas">
+                    <div class="title-overlay">Bebidas</div>
+                </div>
+                <div class="grid-item">
+                    <img src="imagenes/imagen_5.jpg" alt="Sandwichs">
+                    <div class="title-overlay">Sandwichs</div>
+                </div>
+                <div class="grid-item">
+                    <img src="imagenes/imagen_6.jpg" alt="Productos">
+                    <div class="title-overlay">Productos</div>
+                </div>
+                <div class="grid-item">
+                    <img src="imagenes/imagen_7.jpg" alt="Poket">
+                    <div class="title-overlay">Poket Bowl</div>
+                </div>
+            </div>
+            <button class="btn">Ver más</button>
+
+        </section>
+
+        <section class="formulario">
+            <div class="info">
+                <img src="imagenes/formulario.png" alt="Taza de café">
+                <h2>Regístrate</h2>
+                <p>Y sé parte de nuestra comunidad</p>
+            </div>
+            <div class="form">
+                <form>
+                    <h2>Ingresa tus Datos</h2>
+                    <p>Nos pondremos en contacto contigo</p>
+                    <button>Rellena tus datos con Google</button>
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="text" name="nombre" placeholder="Nombre y Apellidos">
+                    <label>
+                        <div><input type="checkbox" placeholder="Promociones"></div>
+                        <div>Acepto envío de promociones</div>
+                    </label>
+                    <button type="submit">Enviar Datos</button>
+                </form>
+                <p>Completar tus datos con: <a href="#">Cuenta de Facebook</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_1">
+            <h4>SIGUENOS EN :</h4>
+            <section class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google"></i></a>
+            </section>
+        </div>
+        <div class="footer_2">
+            <h4>AROMA DE CAFÉ</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Tiendas</a></li>
+                <li><a href="#">Carta</a></li>
+            </ul>
+        </div>
+        <div class="footer_3">
+            <h4>POLÍTICAS Y SEGURIDAD</h4>
+            <ul>
+                <li><a href="#">Terminos y condiciones</a></li>
+                <li><a href="#">Política de privacidad de la web</a></li>
+                <li><a href="#">Preguntas frecuentes</a></li>
+                <li><a href="#">Atención al cliente</a></li>
+                <li><a href="#">Libro de reclamaciones</a></li>
+            </ul>
+        </div>
+        <div class="footer_4">
+            <h4>REGÍSTRATE EN AROMA CAFÉ</h4>
+            <p>Obten promociones exclusivas, descuentos y mucho más. Se el primero en enterarte de lo nuevo que traemos
+                para ti.
+            </p>
+            <button>Enviar Datos</button>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
